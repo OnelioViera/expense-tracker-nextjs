@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "burkeholland.simple-react-snippets",
-    "cardinal90.multi-cursor-case-preserve"
+    "cardinal90.multi-cursor-case-preserve",
+    "prisma.prisma"
   ]
 }
