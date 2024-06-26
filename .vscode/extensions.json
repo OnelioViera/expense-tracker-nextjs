@@ -2,6 +2,13 @@
   "recommendations": [
     "burkeholland.simple-react-snippets",
     "cardinal90.multi-cursor-case-preserve",
-    "prisma.prisma"
+    "prisma.prisma",
+    "chakrounanas.turbo-console-log",
+    "letrieu.turbo-console-log-fork",
+    "sachinsmc.turbo-fmt-println",
+    "letrieu.turbo-console-log",
+    "hvuad.go-turbo-console-log",
+    "hvuad.turbo-console-log-new",
+    "trlanfeng.turbo-console-log"
   ]
 }
