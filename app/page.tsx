@@ -9,10 +9,12 @@ const HomePage = async () => {
     return <Guest />;
   }
 
-  return (<main>
-    <h1>Welcome, {user.firstName}</h1>
-    <AddTransaction />
-  </main>);
-}
+  return (
+    <main>
+      <h2>Welcome, {user.firstName}</h2>
+      <AddTransaction />
+    </main>
+  );
+};
 
 export default HomePage;
