@@ -1,5 +1,5 @@
 import AddTransaction from '@/components/AddTransaction';
-import Balance from '@/components/balance';
+import Balance from '@/components/Balance';
 import Guest from '@/components/Guest';
 import { currentUser } from '@clerk/nextjs/server';
 
