@@ -2,6 +2,8 @@ import AddTransaction from '@/components/AddTransaction';
 import Balance from '@/components/Balance';
 import Guest from '@/components/Guest';
 import { currentUser } from '@clerk/nextjs/server';
+import IncomeExpense from '@/components/IncomeExpense';
+import TransactionList from '@/components/TransactionList';
 
 
 const HomePage = async () => {
@@ -15,7 +17,9 @@ const HomePage = async () => {
     <main>
       <h2>Welcome, {user.firstName}</h2>
       <Balance />
+      <IncomeExpense />
       <AddTransaction />
+      <TransactionList />
     </main>
   );
 };
