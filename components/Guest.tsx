@@ -8,6 +8,7 @@ const Guest = () => {
     <p>Please sign in to mange your transactions</p>
       <SignInButton />
       <p className="description">Screen Shot of Dashboard</p>
+      
       <div className="image">
         <Image
           src="/images/img-01.png"
